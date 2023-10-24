@@ -16,6 +16,9 @@ public class Solution {
         //convert id back to URL
         String stringFromId = shortener.getString(stringId);
         System.out.println(stringFromId);
+
+        //check if strings are equal
+        System.out.println("Strings are equal? : " + originUrl.equals(stringFromId));
     }
 }
 ```  
